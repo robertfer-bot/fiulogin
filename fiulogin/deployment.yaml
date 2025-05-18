@@ -18,6 +18,7 @@ spec:
       containers:
       - name: fiulogin
         image: r0bdocker/testlogin3:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 
