@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: fiulogin
-        image: r0bdocker/testlogin3:v4
+        image: r0bdocker/testlogin3:latest
         ports:
         - containerPort: 80
 
